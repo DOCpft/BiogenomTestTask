@@ -103,6 +103,7 @@ erDiagram
     AnalysisRequest ||--o{ Item : "has"
     Item ||--o{ ItemMaterial : "has"
     Material ||--o{ ItemMaterial : "has"
+```
 
 Коротко:
 - `AnalysisRequest` 1 → * `Item`  (One-to-Many)
