@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Api", "Biogenom.Api\Biogenom.Api.csproj", "{3D393BB0-2C6E-47BC-8A89-03F5D02A8343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Domain", "Biogenom.Domain\Biogenom.Domain.csproj", "{4ED01B2E-5562-4A63-9AD5-48B683B49BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Application", "Biogenom.Application\Biogenom.Application.csproj", "{0987B3EB-9DA1-4C9D-BDC5-9F5B7818E211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Infrastructure", "Biogenom.Infostructure\Biogenom.Infrastructure.csproj", "{3B953480-F286-4313-88DF-1CE12A62B3EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D393BB0-2C6E-47BC-8A89-03F5D02A8343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D393BB0-2C6E-47BC-8A89-03F5D02A8343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D393BB0-2C6E-47BC-8A89-03F5D02A8343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D393BB0-2C6E-47BC-8A89-03F5D02A8343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED01B2E-5562-4A63-9AD5-48B683B49BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED01B2E-5562-4A63-9AD5-48B683B49BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED01B2E-5562-4A63-9AD5-48B683B49BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED01B2E-5562-4A63-9AD5-48B683B49BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0987B3EB-9DA1-4C9D-BDC5-9F5B7818E211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0987B3EB-9DA1-4C9D-BDC5-9F5B7818E211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0987B3EB-9DA1-4C9D-BDC5-9F5B7818E211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0987B3EB-9DA1-4C9D-BDC5-9F5B7818E211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B953480-F286-4313-88DF-1CE12A62B3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B953480-F286-4313-88DF-1CE12A62B3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B953480-F286-4313-88DF-1CE12A62B3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B953480-F286-4313-88DF-1CE12A62B3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96C5A72B-9AF1-4DEA-8017-134AF935313E}
+	EndGlobalSection
+EndGlobal

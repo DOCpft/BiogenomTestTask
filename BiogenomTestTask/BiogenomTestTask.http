@@ -1,0 +1,6 @@
+@BiogenomTestTask_HostAddress = http://localhost:5064
+
+GET {{BiogenomTestTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
