@@ -78,6 +78,7 @@
 
 ## ER-диаграмма базы данных
 
+```mermaid
 erDiagram
     AnalysisRequest {
         int Id PK
