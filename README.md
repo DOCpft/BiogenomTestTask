@@ -105,9 +105,31 @@ erDiagram
     Material ||--o{ ItemMaterial : "has"
 ```
 
-Коротко:
+Связи:
 - `AnalysisRequest` 1 → * `Item`  (One-to-Many)
 - `Item` * ↔ * `Material` через `ItemMaterial` (Many-to-Many через промежуточную таблицу)
+
+Описание полей:
+- `AnalysisRequest`:
+  Id - Первичный ключ,
+  ImageUrl - Ссылка на анализируемое изображение,
+  CreatedAt - Дата создания запроса,
+  RawAiResponse - Еще не обработанный ответ от GigaChat (предметы на изображении),
+  UploadedFileRef - хранит `fileRef` от GigaChat, чтобы не загружать изображение повторно.
+
+- `Item`:
+  Id - Первичный ключ,
+  Name - Название предмета,
+  AnalysisRequestId - Внешний ключ (id запроса из которого был получен предмет)
+
+- `Material`:
+  Id - Первичный ключ,
+  Name - Название материала
+
+- `ItemMaterial`
+  (ItemId, MaterialId) - Составной первичный ключ,
+  ItemId - Внешний ключ к отношению Item,
+  MaterialId - Внешний ключ к отношению Material
 
 
 ## API (пример использования)
